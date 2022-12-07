@@ -1,0 +1,11 @@
+@use "../../scss/" as *;
+#tsparticles {
+  z-index: -1;
+  position: absolute;
+  height: 100px;
+}
+.particle-container{
+  overflow: hidden;
+  
+  position: relative;
+}

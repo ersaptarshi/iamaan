@@ -1,0 +1,129 @@
+@use "../../scss/" as *;
+
+#projects {
+  text-align: center;
+  color: $white;
+  background-color: $main-color;
+  padding: 2rem 0;
+
+  h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: $main-color;
+    background: linear-gradient(180deg, #2C3E50 0%, #000000 90%)
+  }
+
+  .project__container {
+    @include flex(center, center);
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 2rem 0;
+    margin: 0 2rem;
+    border-radius: 1rem;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(180deg, #8BC6EC 0%, #9599E2 52%);
+
+    .project__item {
+      // flex: 1 1 auto;
+      height: 16rem;
+      width: 28rem;
+      position: relative;
+      border-radius: 0.5rem;
+      box-shadow: $box-shadow2;
+      overflow: hidden;
+
+
+      @include tablet {
+        width: 30rem;
+      }
+
+      @include mobile {
+        width: 35rem;
+        height: 18rem;
+        overflow: hidden;
+      }
+
+      img {
+        // height: 100%;
+        // width: 100%;
+        object-fit: cover;
+      }
+
+      .content {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 85%;
+        left: 0;
+        transition: 0.5s;
+        background-color: rbga(255, 255, 255, 0.9);
+        display: flex;
+        flex-direction: column;
+
+        .tag {
+
+          flex-direction: row;
+          background-color: $blu-color;
+          width: 100%;
+          padding-left: 1rem;
+          padding: 4px 0;
+          font-size: 1rem;
+
+          h2 {
+            font-weight: 500;
+
+          }
+
+        }
+
+        .desc {
+          background-color: lightgrey;
+          color: black;
+          padding: 2rem;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+
+          .btns {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 1.5rem;
+
+            .btn {
+
+              position: relative;
+              line-height: 0;
+              transition: 0.5s;
+              background: $blu-color;
+              color: $white;
+              padding: 1rem 1.4rem;
+              box-shadow: $box-shadow;
+              border-radius: 0.5rem;
+              font-size: 1.1rem;
+
+              i {
+                margin-right: 0.5rem;
+                font-size: 1.2rem;
+                transition: .3s;
+
+              }
+
+              &:hover {
+                background-color: $main-color;
+              }
+
+
+            }
+          }
+
+        }
+      }
+
+      &:hover .content {
+        top: 15%;
+      }
+    }
+  }
+}

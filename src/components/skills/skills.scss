@@ -1,0 +1,64 @@
+@use "../../scss/" as *;
+
+#skills {
+  text-align: center;
+  background-color: $main-color;
+  padding-bottom: 2rem;
+
+  color: #fff;
+
+  h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    background-color: $main-color;
+    padding: 1rem;
+    background: linear-gradient(180deg, #2C3E50 0%, #000000 90%)
+  }
+
+  .skills__wrap {
+    @include flex(center, center);
+    color: $white;
+    flex-wrap: wrap;
+    // background-color: #4b7195;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(180deg, #8BC6EC 0%, #9599E2 52%);
+
+
+    padding: 1.5rem;
+    margin: 1rem 5rem;
+
+    @include mobile {
+      margin: 2rem;
+    }
+
+    border-radius: 1rem;
+    height: fit-content;
+
+    .skill_item {
+      background-color: #f7f7f7;
+      color: #000;
+      border-radius: 1rem;
+      box-shadow: $box-shadow2;
+      height: 10rem;
+      width: 10rem;
+
+      @include tablet {
+        height: 100px;
+        width: 100px;
+      }
+
+      @include mobile {
+        height: 9rem;
+        width: 9rem;
+      }
+
+      @include flex(center, center);
+      flex-direction: column;
+      margin: 10px;
+    }
+
+    .github {
+      filter: invert(100%);
+    }
+  }
+}
