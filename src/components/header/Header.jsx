@@ -5,7 +5,7 @@ const headerNav = [
   {
     display: "Home",
     path: "#hero-section",
-    class: 'active'
+    // class: 'active'
   },
   {
     display: "About",

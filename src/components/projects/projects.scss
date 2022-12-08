@@ -77,12 +77,13 @@
         }
 
         .desc {
-          background-color: lightgrey;
+          background-color: rgb(212, 221, 241);
           color: black;
           padding: 2rem;
           display: flex;
           justify-content: center;
           flex-direction: column;
+          height: 100%;
 
           .btns {
             display: flex;
@@ -122,7 +123,7 @@
       }
 
       &:hover .content {
-        top: 15%;
+        top: 10%;
       }
     }
   }

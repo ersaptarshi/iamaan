@@ -7,14 +7,14 @@ const proArr = [
   {
     name: "MovieTown",
     imageUrl: movieapp,
-    desc: "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    desc: "Movie and Tv series website built using TMDB Api, react, scss, react-router.",
     linkToView: "https://moviestown.netlify.app/",
     linkToCode: "https://github.com/Amaan262/movieTown"
   },
   {
     name: "Magical Chat App",
     imageUrl: chatApp,
-    desc: "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    desc: "Chat App Built using Realtime Chat with the help of Socket.io",
     linkToView: "",
     linkToCode: "https://github.com/Amaan262/Magical-Chat-v2.0"
   },
@@ -22,28 +22,28 @@ const proArr = [
   {
     name: "Textutils",
     imageUrl: textutils1,
-    desc: "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    desc: "Simple text tranformation Web App to manipulate text - to remove extraspaces, to uppercase, to lowercase",
     linkToView: "https://amaan262.github.io/textutils/",
     linkToCode: "https://github.com/Amaan262/textutils"
   },
   {
     name: "Glass Morphism",
     imageUrl: glassMor,
-    desc: "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    desc: "Demonstrating the use of Glass Morphism using simple example",
     linkToView: "https://amaan262.github.io/Glass-Morphism/",
     linkToCode: "https://github.com/Amaan262/Glass-Morphism"
   },
   {
     name: "Hoobank",
     imageUrl: hoobank,
-    desc: "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    desc: "Modern website build using react, vite, tailwind css",
     linkToView: "https://amaan262.github.io/HooBank-website/",
     linkToCode: "https://github.com/Amaan262/HooBank-website"
   },
   {
     name: "TicTacToe",
     imageUrl: tictactoe,
-    desc: "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
+    desc: "Basic tictactoe game web app",
     linkToView: "http://iamaan.me/Tic-tac-toe/",
     linkToCode: "https://github.com/Amaan244/Tic-tac-toe"
   },

@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="hero-section" >
+      <section id="hero" >
         <Particles />
         <div className="hero__wrap container">
           <div className="hero__wrap__info">

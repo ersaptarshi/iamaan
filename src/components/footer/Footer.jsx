@@ -14,7 +14,7 @@ function Footer() {
 
           <div className="box">
             <h3>Quick links</h3>
-            <a href="#hero-section"><i className="fas fa-chevron-circle-right"></i> Home</a>
+            <a href="#hero"><i className="fas fa-chevron-circle-right"></i> Home</a>
             <a href="#about"><i className="fas fa-chevron-circle-right"></i> About</a>
             <a href="#skills"><i className="fas fa-chevron-circle-right"></i> Skills</a>
             <a href="#projects"><i className="fas fa-chevron-circle-right"></i> Portfolio</a>
@@ -28,12 +28,12 @@ function Footer() {
             <p> <i className="fas fa-map-marked-alt"></i>Uttarakhand, India-263153</p>
             <div className="share">
 
-              <a href="https://www.linkedin.com/in/ahmadamaan" className="fab fa-linkedin" aria-label="LinkedIn"
+              <a href="https://www.linkedin.com/in/ahmadamaan"  rel="noreferrer" className="fab fa-linkedin" aria-label="LinkedIn"
                 target="_blank"></a>
-              <a href="https://github.com/amaan262" className="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:amaanahmad1601@gmail.com" className="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://github.com/amaan262"  rel="noreferrer" className="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:amaanahmad1601@gmail.com"  rel="noreferrer" className="fas fa-envelope" aria-label="Mail" target="_blank"></a>
               {/* <a href="https://twitter.com/" className="fab fa-twitter" aria-label="Twitter" target="_blank"></a> */}
-              <a href="https://t.me/amaan262" className="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+              <a href="https://t.me/amaan262"  rel="noreferrer" className="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
             </div>
           </div>
         </div>
