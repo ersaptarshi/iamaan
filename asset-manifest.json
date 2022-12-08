@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iamaan/static/css/main.4000e468.css",
-    "main.js": "/iamaan/static/js/main.9b59123c.js",
+    "main.css": "/iamaan/static/css/main.120138a8.css",
+    "main.js": "/iamaan/static/js/main.e8476470.js",
     "static/media/profile.png": "/iamaan/static/media/profile.10665da01fcf251bf4b3.png",
     "static/media/movieapp.png": "/iamaan/static/media/movieapp.1b24699fc87361c3cdb3.png",
     "static/media/hoobank.png": "/iamaan/static/media/hoobank.7d2f63f682e77c5f0062.png",
@@ -12,11 +12,11 @@
     "static/media/tictactoe.png": "/iamaan/static/media/tictactoe.3f85d8860abd99cd5df3.png",
     "static/media/textutils.png": "/iamaan/static/media/textutils.7472b59bfcdc82bf8770.png",
     "index.html": "/iamaan/index.html",
-    "main.4000e468.css.map": "/iamaan/static/css/main.4000e468.css.map",
-    "main.9b59123c.js.map": "/iamaan/static/js/main.9b59123c.js.map"
+    "main.120138a8.css.map": "/iamaan/static/css/main.120138a8.css.map",
+    "main.e8476470.js.map": "/iamaan/static/js/main.e8476470.js.map"
   },
   "entrypoints": [
-    "static/css/main.4000e468.css",
-    "static/js/main.9b59123c.js"
+    "static/css/main.120138a8.css",
+    "static/js/main.e8476470.js"
   ]
 }
