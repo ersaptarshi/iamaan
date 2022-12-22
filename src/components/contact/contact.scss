@@ -37,7 +37,13 @@
       #contact__form {
         width: 50%;
         // margin-right: 3.5rem;
-
+        position: relative;
+        #boxi{
+          text-align: left;
+          position: absolute;
+          margin-top: 1rem;
+          right: 0;
+        }
         .form__group {
           @include flex(unset, center);
           flex-direction: column;

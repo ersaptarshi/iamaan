@@ -11,10 +11,20 @@ const Contact = () => {
     await form.addEventListener('submit', e => {
       e.preventDefault()
       const boxi = document.getElementById('boxi');
-      boxi.innerHTML = "hello";
+
+
+
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .then(response => boxi.innerHTML = "Response Recieved ✅")
         .catch(error => console.error('Error!', error.message))
+
+      setTimeout(() => {
+        boxi.innerHTML = ""
+
+      }, 2000);
+
+
+
 
     })
 

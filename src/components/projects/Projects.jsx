@@ -1,5 +1,5 @@
 import React from "react";
-import { chatApp, textutils1, tictactoe, hoobank, movieapp, glassMor } from "../../assets/image/images";
+import { chatApp, textutils1, tictactoe, hoobank, movieapp, glassMor, todoJS } from "../../assets/image/images";
 import "./projects.scss";
 
 const proArr = [
@@ -41,10 +41,17 @@ const proArr = [
     linkToCode: "https://github.com/Amaan262/HooBank-website"
   },
   {
+    name: "TodoJS",
+    imageUrl: todoJS,
+    desc: "Notes keeping website, Notes are stored in local Storage",
+    linkToView: "https://amaan262.github.io/TodoList/",
+    linkToCode: "https://github.com/Amaan262/TodoList"
+  },
+  {
     name: "TicTacToe",
     imageUrl: tictactoe,
     desc: "Basic tictactoe game web app",
-    linkToView: "http://iamaan.me/Tic-tac-toe/",
+    linkToView: "https://amaan244.github.io/Tic-tac-toe/",
     linkToCode: "https://github.com/Amaan244/Tic-tac-toe"
   },
 

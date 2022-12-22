@@ -4,13 +4,10 @@ import logo from "../../assets/image/logo.png";
 const headerNav = [
   {
     display: "Home",
-    path: "#hero-section",
+    path: "#hero",
     // class: 'active'
   },
-  {
-    display: "About",
-    path: "#about",
-  },
+
   {
     display: "Skills",
     path: "#skills",
@@ -18,6 +15,10 @@ const headerNav = [
   {
     display: "Portfolio",
     path: "#projects",
+  },
+  {
+    display: "About",
+    path: "#about",
   },
   {
     display: "Contact",
