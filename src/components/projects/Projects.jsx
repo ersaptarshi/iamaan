@@ -48,6 +48,13 @@ const proArr = [
     linkToCode: "https://github.com/Amaan262/TodoList"
   },
   {
+    name: "D Calculator",
+    imageUrl: tictactoe,
+    desc: "Basic Calculator using Reactjs",
+    linkToView: "https://amaan244.github.io/",
+    linkToCode: "https://github.com/Amaan244/Tic-tac-toe"
+  },
+  {
     name: "TicTacToe",
     imageUrl: tictactoe,
     desc: "Basic tictactoe game web app",
