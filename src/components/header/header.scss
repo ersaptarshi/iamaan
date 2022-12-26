@@ -47,7 +47,7 @@
     color: $txt-color;
 
     img {
-      width: 5rem;
+      width: 4.5rem;
       filter: invert(100%);
       transition: 0.2s ease;
 
@@ -114,10 +114,14 @@
     li {
       padding: 5px 10px;
       margin: 10px;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       color: $txt-color;
       font-weight: 500;
       position: relative;
+
+      @include mobile {
+        font-size: 1.6rem;
+      }
 
       @include tablet {
         padding: 5px 2px;
